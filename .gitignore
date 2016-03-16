@@ -11,3 +11,6 @@ bower_components/
 
 # node
 node_modules/
+
+# map
+*.map
