@@ -58,7 +58,7 @@
       </div>
     </div>
     <div class="sidebar__menulist">
-      <a  href="#" class="sidebar__menulist__menu" id="reports">
+      <div class="sidebar__menulist__menu" id="reports">
         <i class="fa fa-files-o"></i>
         <span class="menuname">个人报表</span>
         <div class="sidebar__menulist__menu-mask">
@@ -67,10 +67,22 @@
             <i class="fa fa-file"></i>
             <span class="menuname">文件1</span>
           </div>
-          <div class="sidebar__menulist__menu children">
+          <div class="sidebar__menulist__menu children" id="dir2">
             <i class="fa fa-angle-right"></i>
             <i class="fa fa-file"></i>
             <span class="menuname">文件2</span>
+            <div class="sidebar__menulist__menu-mask">
+              <button class="sidebar__menulist__menu children" id="file1">
+                <i class="fa fa-angle-right"></i>
+                <i class="fa fa-file"></i>
+                <span class="menuname">文档1</span>
+              </button>
+              <button class="sidebar__menulist__menu children" id="file2">
+                <i class="fa fa-angle-right"></i>
+                <i class="fa fa-file"></i>
+                <span class="menuname">文档2</span>
+              </button>
+            </div>
           </div>
           <div class="sidebar__menulist__menu children">
             <i class="fa fa-angle-right"></i>
@@ -78,7 +90,7 @@
             <span class="menuname">文件3</span>
           </div>
         </div>
-      </a>
+      </div>
       <a href="#" class="sidebar__menulist__menu">
         <i class="fa fa-star"></i>
         <span class="menuname">个人收藏</span>

@@ -101,6 +101,11 @@
   text-decoration: none;
   display: block;
   outline: 0;
+  background-color: transparent;
+  border: 0;
+  text-align: left;
+  font-size: 15px;
+  font-weight: unset;
 }
 
 .sidebar__menulist__menu .children {
@@ -112,7 +117,10 @@
   color: white;
 }
 
-#reports:focus .sidebar__menulist__menu-mask {
+#reports:hover, #dir2:hover {
+}
+
+#reports:hover > .sidebar__menulist__menu-mask, #dir2:hover > .sidebar__menulist__menu-mask {
   /* FIXME: use js to calc height */
   max-height: 200px;
 }
