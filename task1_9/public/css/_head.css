@@ -12,7 +12,6 @@
   top: 0;
   padding-left: 55px;
   padding-right: 85px;
-  position: fixed;
   background-color: #0088bb;
 }
 
@@ -54,15 +53,24 @@
 .head__searchbar__input {
   border: 0;
   width: 255px;
-  margin-left: 5px;
+  margin-left: 5px
+}
+
+.head__searchbar__input:focus {
+  //: 0px;
 }
 
 .head__usercontrol {
   height: 30px;
-  width: 80px;
   background: transparent;
-  border: 0px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  cursor: pointer;
   line-height: 30px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .head__usercontrol span {
@@ -74,6 +82,12 @@
 .head__usercontrol img {
   -webkit-transform: translate(0, 2px);
   transform: translate(0, 2px);
+}
+
+.head__usercontrol:hover {
+  border: 1px solid white;
+  background-color: #4c96b3;
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=_head.css.map */

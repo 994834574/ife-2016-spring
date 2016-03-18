@@ -1,0 +1,99 @@
+$AVATAR_HEIGHT: 57px;
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  width: 260px;
+  height: 100%;
+  background-color: #2d323f;
+}
+
+.sidebar__user {
+  margin-top: 20px;
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.sidebar__user__baseinfo {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.sidebar__user__baseinfo__avatar {
+  width: $AVATAR_HEIGHT;
+  height: $AVATAR_HEIGHT;
+  border-radius: 50%;
+  background-color: #b8b8bc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  div {
+    width:53px;
+    height: 53px;
+    border-radius: 50%;
+    border: 6px solid #2d323f;
+    background-color: #b8b8bc;
+  }
+}
+
+.sidebar__user__baseinfo__name {
+  margin-left: 18px;
+  font-size: 14px;
+  height: $AVATAR_HEIGHT;
+  line-height: $AVATAR_HEIGHT;
+  color: white;
+}
+
+.sidebar__user__otherinfo {
+  display: flex;
+  font-size: 15px;
+  color: #6b7f93;
+}
+
+.sidebar__user__otherinfo__info {
+  width: $AVATAR_HEIGHT;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  div {
+    margin-bottom: 2px;
+  }
+}
+
+.sidebar__menulist {
+  margin-top: 40px;
+  font-size: 15px;
+}
+
+.sidebar__menulist__menu {
+  padding-top: 20px;
+  padding-left: 45px;
+  color: #6a7e92;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  outline: 0;
+  &:hover {
+    color: white;
+  }
+  .children {
+    padding-left: 25px;
+    color: #6a7e92;
+  }
+}
+
+#reports:focus {
+  .sidebar__menulist__menu-mask {
+    /* FIXME: use js to calc height */
+    max-height: 200px;
+  }
+}
+
+.sidebar__menulist__menu-mask {
+  max-height: 0;
+  transition: all linear  0.5s;
+  overflow-y: hidden;
+}

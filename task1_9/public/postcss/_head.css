@@ -6,7 +6,6 @@
   top: 0;
   padding-left: 55px;
   padding-right: 85px;
-  position: fixed;
   background-color: #0088bb;
 }
 
@@ -39,13 +38,22 @@
   border: 0;
   width: 255px;
   margin-left: 5px;
+  &:focus {
+    // chrome
+    outline: 0px;
+  }
 }
 
 .head__usercontrol {
   height: 30px;
-  width: 80px;
   background: transparent;
-  border: 0px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  cursor: pointer;
+  line-height: 30px;
+  transition: all ease 0.5s;
+  padding-left: 10px;
+  padding-right: 10px;
   span {
     margin-left: 5px;
     color: white;
@@ -54,5 +62,9 @@
   img {
     transform: translate(0, 2px);
   }
-  line-height: 30px;
+  &:hover {
+    border: 1px solid white;
+    background-color: #4c96b3;
+    border-radius: 15px;
+  }
 }
