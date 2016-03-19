@@ -38,81 +38,127 @@
   </div>
   <div class="content">
 
-  <div class="sidebar">
-    <div class="sidebar__user">
-      <div class="sidebar__user__baseinfo">
-        <div class="sidebar__user__baseinfo__avatar">
-          <div></div>   
-        </div>
-        <div class="sidebar__user__baseinfo__name">ABC123</div>
-      </div>
-      <div class="sidebar__user__otherinfo">
-        <div class="sidebar__user__otherinfo__info">
-          <div class="num">110</div>
-          <div class="text">收藏</div>
-        </div>
-        <div class="sidebar__user__otherinfo__info">
-          <div class="num">119</div>
-          <div class="text">粉丝</div>
-        </div>
-      </div>
-    </div>
-    <div class="sidebar__menulist">
-      <div class="sidebar__menulist__menu" id="reports">
-        <i class="fa fa-files-o"></i>
-        <span class="menuname">个人报表</span>
-        <div class="sidebar__menulist__menu-mask">
-          <div class="sidebar__menulist__menu children">
-            <i class="fa fa-angle-right"></i>
-            <i class="fa fa-file"></i>
-            <span class="menuname">文件1</span>
+    <div class="sidebar">
+      <div class="sidebar__user">
+        <div class="sidebar__user__baseinfo">
+          <div class="sidebar__user__baseinfo__avatar">
+            <div></div>   
           </div>
-          <div class="sidebar__menulist__menu children" id="dir2">
-            <i class="fa fa-angle-right"></i>
-            <i class="fa fa-file"></i>
-            <span class="menuname">文件2</span>
-            <div class="sidebar__menulist__menu-mask">
-              <button class="sidebar__menulist__menu children" id="file1">
-                <i class="fa fa-angle-right"></i>
-                <i class="fa fa-file"></i>
-                <span class="menuname">文档1</span>
-              </button>
-              <button class="sidebar__menulist__menu children" id="file2">
-                <i class="fa fa-angle-right"></i>
-                <i class="fa fa-file"></i>
-                <span class="menuname">文档2</span>
-              </button>
+          <div class="sidebar__user__baseinfo__name">ABC123</div>
+        </div>
+        <div class="sidebar__user__otherinfo">
+          <div class="sidebar__user__otherinfo__info">
+            <div class="num">110</div>
+            <div class="text">收藏</div>
+          </div>
+          <div class="sidebar__user__otherinfo__info">
+            <div class="num">119</div>
+            <div class="text">粉丝</div>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar__menulist">
+        <div class="sidebar__menulist__menu" id="reports">
+          <i class="fa fa-files-o"></i>
+          <span class="menuname">个人报表</span>
+          <div class="sidebar__menulist__menu-mask">
+            <div class="sidebar__menulist__menu children">
+              <i class="fa fa-angle-right"></i>
+              <i class="fa fa-file"></i>
+              <span class="menuname">文件1</span>
+            </div>
+            <div class="sidebar__menulist__menu children" id="dir2">
+              <i class="fa fa-angle-right"></i>
+              <i class="fa fa-file"></i>
+              <span class="menuname">文件2</span>
+              <div class="sidebar__menulist__menu-mask">
+                <a href="#content_file1" class="sidebar__menulist__menu children" id="file1">
+                  <i class="fa fa-angle-right"></i>
+                  <i class="fa fa-file"></i>
+                  <span class="menuname">文档1</span>
+                </a>
+                <a href="#content_file2" class="sidebar__menulist__menu children" id="file2">
+                  <i class="fa fa-angle-right"></i>
+                  <i class="fa fa-file"></i>
+                  <span class="menuname">文档2</span>
+                </a>
+              </div>
+            </div>
+            <div class="sidebar__menulist__menu children">
+              <i class="fa fa-angle-right"></i>
+              <i class="fa fa-file"></i>
+              <span class="menuname">文件3</span>
             </div>
           </div>
-          <div class="sidebar__menulist__menu children">
-            <i class="fa fa-angle-right"></i>
-            <i class="fa fa-file"></i>
-            <span class="menuname">文件3</span>
+        </div>
+        <a href="#" class="sidebar__menulist__menu">
+          <i class="fa fa-star"></i>
+          <span class="menuname">个人收藏</span>
+        </a>
+        <a href="#" class="sidebar__menulist__menu">
+          <i class="fa fa-share-alt"></i>
+          <span class="menuname">我的分享</span>
+        </a>
+        <a href="#" class="sidebar__menulist__menu">
+          <i class="fa fa-star"></i>
+          <span class="menuname">图库</span>
+        </a>
+        <a href="#" class="sidebar__menulist__menu">
+          <i class="fa fa-star"></i>
+          <span class="menuname">成长记录</span>
+        </a>
+        <a href="#" class="sidebar__menulist__menu">
+          <i class="fa fa-star"></i>
+          <span class="menuname">账户信息</span>
+        </a>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="main-content__navigation">
+        <ul>
+          <li>C站</li>
+          <li>个人报表</li>
+          <li>文件一</li>
+          <li>文档一</li>
+        </ul>
+      </div>
+      <div class="main-content__content">
+        <div class="main-content__content__search">
+          <div class="search-form-group">
+            <label class="label" for="#search-index">查询项</label>
+            <label class="select">
+            <select id="search-index" >
+              <option value="1">第一项</option>
+              <option value="2">第二项</option>
+              <option value="3">第三项</option>
+            </select>
+            </label>
+          </div>
+          <div class="search-form-group buypay">
+            <div class="form-control">
+              <label class="label" for="#search-index">买方</label>
+              <label class="select">
+              <select id="search-index" >
+                <option value="1">SF</option>
+                <option value="2">PA</option>
+                <option value="3">CK</option>
+              </select>
+              </label>
+            </div>
+            <div class="form-control">
+              <label class="label" for="#search-index">卖方</label>
+              <label class="select">
+              <select id="search-index" >
+                <option value="1">AM</option>
+                <option value="2">SK</option>
+                <option value="3">ES</option>
+              </select>
+              </label>
+            </div>
           </div>
         </div>
       </div>
-      <a href="#" class="sidebar__menulist__menu">
-        <i class="fa fa-star"></i>
-        <span class="menuname">个人收藏</span>
-      </a>
-      <a href="#" class="sidebar__menulist__menu">
-        <i class="fa fa-share-alt"></i>
-        <span class="menuname">我的分享</span>
-      </a>
-      <a href="#" class="sidebar__menulist__menu">
-        <i class="fa fa-star"></i>
-        <span class="menuname">图库</span>
-      </a>
-      <a href="#" class="sidebar__menulist__menu">
-        <i class="fa fa-star"></i>
-        <span class="menuname">成长记录</span>
-      </a>
-      <a href="#" class="sidebar__menulist__menu">
-        <i class="fa fa-star"></i>
-        <span class="menuname">账户信息</span>
-      </a>
     </div>
-  </div>
 
   </div>
   

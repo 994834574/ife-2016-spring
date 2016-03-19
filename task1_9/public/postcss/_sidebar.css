@@ -1,7 +1,6 @@
 $AVATAR_HEIGHT: 57px;
 
 .sidebar {
-  position: absolute;
   top: 0;
   width: 260px;
   height: 100%;
@@ -94,6 +93,16 @@ $AVATAR_HEIGHT: 57px;
   & > .sidebar__menulist__menu-mask {
     /* FIXME: use js to calc height */
     max-height: 200px;
+  }
+}
+
+.fa-angle-right {
+  transition: transform ease 0.5s;
+}
+
+#dir2:hover {
+ & > .fa-angle-right {
+    transform: rotate(0.25turn);
   }
 }
 

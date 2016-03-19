@@ -1,6 +1,7 @@
 @import 'reset';
 @import 'head';
 @import 'sidebar';
+@import 'content';
 
 body {
   display: flex;
@@ -12,4 +13,5 @@ body {
   width: 100%;
   flex: 1;
   position: relative;
+  display: flex;
 }

@@ -1,5 +1,4 @@
 .sidebar {
-  position: absolute;
   top: 0;
   width: 260px;
   height: 100%;
@@ -123,6 +122,21 @@
 #reports:hover > .sidebar__menulist__menu-mask, #dir2:hover > .sidebar__menulist__menu-mask {
   /* FIXME: use js to calc height */
   max-height: 200px;
+}
+
+.fa-angle-right {
+  -webkit-transition: -webkit-transform ease 0.5s;
+  transition: -webkit-transform ease 0.5s;
+  transition: transform ease 0.5s;
+  transition: transform ease 0.5s, -webkit-transform ease 0.5s;
+}
+
+#dir2:hover {
+}
+
+#dir2:hover > .fa-angle-right {
+  -webkit-transform: rotate(0.25turn);
+  transform: rotate(0.25turn);
 }
 
 .sidebar__menulist__menu-mask {

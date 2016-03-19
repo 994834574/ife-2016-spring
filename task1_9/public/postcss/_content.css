@@ -1,0 +1,111 @@
+$NAVIGATION_HEIGHT: 30px;
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content__navigation {
+  height: $NAVIGATION_HEIGHT;
+  width: 100%;
+  background-color: white;
+  padding-left: 30px;
+  color: #a9a9a9;
+  cursor: pointer;
+  ul {
+    height: 100%;
+  }
+  li {
+    height: 100%;
+    display: inline-block;
+    line-height: $NAVIGATION_HEIGHT;
+    &::after {
+      content: '/';
+      margin-left: 5px;
+    }
+  }
+  li:nth-last-child(1){
+    color: #6096be;
+    &::after {
+      content: '';
+    }
+  }
+}
+
+.main-content__content {
+  flex: 1;
+  background-color: #eeeded;
+  overflow: auto;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.main-content__content__search {
+  height: 85px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #dbdcde;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.buypay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  select {
+    width: 120px;
+  }
+}
+
+.search-form-group {
+  margin-right: 30px;
+  height: 60px;
+  label.label {
+    color: #a9a9a9;
+    margin-right: 15px;
+  }
+
+  label.select {
+    position: relative;
+    &:hover {
+      &::after {
+        color: #6096be;
+      }
+    }
+  }
+
+  label.select:after {
+    content: "\f107";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 15px;
+    line-height: 25px;
+    color: black;
+    right: 2px;
+    position: absolute;
+    pointer-events: none;
+    width: 35px;
+    text-indent: 14px;
+  }
+
+  select {
+    border-radius: 0;
+    height: 25px;
+    border: 1px solid #a9a9a9;
+    background-color: white;
+    padding: 3px 15px 3px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    font-size: 14px;
+    color: black;
+    box-shadow: none !important;
+    &:focus {
+      outline: 0;
+    }
+  }
+}
