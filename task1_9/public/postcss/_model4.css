@@ -1,22 +1,26 @@
+@define-mixin header {
+  height: 40px;
+  background-color: #f4f5f7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid #dbdcde;
+  h3 {
+    margin-left: 20px;
+    color: #acaeae;
+    line-height: 40px;
+  }
+}
+
 .main-content__content__projectform {
   height: 355px;
-  width: 62.5%;
+  flex: 5;
   margin-top: 15px;
   background-color: white;
   border: 1.5px solid #dbdcde;
   border-radius: 10px;
 
   header {
-    height: 40px;
-    background-color: #f4f5f7;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom: 1px solid #dbdcde;
-    h3 {
-      margin-left: 20px;
-      color: #acaeae;
-      line-height: 40px;
-    }
+    @mixin header;
   }
   .tabs [id^="proj"]:checked {
     & ~ .tab-content {
@@ -27,9 +31,10 @@
 
     & ~ label {
       background-color: white;
-      border: 1px soild #ececef;
+      border: 1px solid #ececef;
       border-bottom: 0;
       z-index: 100;
+      position: relative;
     }
   }
 

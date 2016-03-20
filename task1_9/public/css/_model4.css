@@ -1,6 +1,9 @@
 .main-content__content__projectform {
   height: 355px;
-  width: 62.5%;
+  -webkit-box-flex: 5;
+  -webkit-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
   margin-top: 15px;
   background-color: white;
   border: 1.5px solid #dbdcde;
@@ -35,9 +38,10 @@
 }
 .main-content__content__projectform .tabs [id^="proj"]:checked ~ label {
   background-color: white;
-  border: 1px soild #ececef;
+  border: 1px solid #ececef;
   border-bottom: 0;
   z-index: 100;
+  position: relative;
 }
 .main-content__content__projectform ul {
   position: relative;

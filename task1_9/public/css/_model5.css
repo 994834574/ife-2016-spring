@@ -1,0 +1,104 @@
+.main-content__content__projectdetial {
+  height: 355px;
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  margin-top: 15px;
+  margin-left: 10px;
+  background-color: white;
+  border: 1.5px solid #dbdcde;
+  border-radius: 10px;
+}
+.main-content__content__projectdetial header {
+  height: 40px;
+  background-color: #f4f5f7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid #dbdcde;
+}
+.main-content__content__projectdetial header h3 {
+  margin-left: 20px;
+  color: #acaeae;
+  line-height: 40px;
+}
+.main-content__content__projectdetial .main {
+  padding: 15px 35px 35px 35px;
+}
+.main-content__content__projectdetial .main .detial {
+  height: 230px;
+  border-bottom: 1px solid #dbdcde;
+  margin-bottom: 12px;
+}
+.main-content__content__projectdetial .main input[type="checkbox"] {
+  opacity: 0;
+  position: absolute
+}
+.main-content__content__projectdetial .main input[type="checkbox"] ~ label {
+  position: relative;
+  color: #acaeae;
+}
+.main-content__content__projectdetial .main input[type="checkbox"] ~ label span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #dbdcde;
+  margin-right: 10px;
+}
+.main-content__content__projectdetial .main input[type="checkbox"]:checked {}
+.main-content__content__projectdetial .main input[type="checkbox"]:checked ~ label {}
+.main-content__content__projectdetial .main input[type="checkbox"]:checked ~ label::before {
+  content: '\f00c';
+  position: absolute;
+  font-size: 14px;
+  top: calc((100% - 18px) / 2);
+  color: #414141;
+  font: normal normal normal 14px/1 FontAwesome;
+}
+.main-content__content__projectdetial .main button {
+  height: 30px;
+  background-color: #2389bd;
+  border: 0;
+  outline: 0;
+  color: white;
+  padding: 5px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  float: right
+}
+.main-content__content__projectdetial .main button:hover, .main-content__content__projectdetial .main button:focus {
+  background-color: #2fb1f4;
+}
+.main-content__content__projectdetial section {
+  padding-left: 15px;
+  font-size: 14px;
+}
+.main-content__content__projectdetial section h3 {
+  color: #acaeae;
+  margin-top: 5px;
+}
+.main-content__content__projectdetial section p {
+  margin: 10px 0;
+}
+.main-content__content__projectdetial .title {
+  width: 100%;
+  border-bottom: 1px solid #dbdcde;
+}
+.main-content__content__projectdetial .price {
+  display: inline-block;
+  width: 25%;
+  border-right: 1px solid #dbdcde;
+}
+.main-content__content__projectdetial .leader {
+  display: inline-block;
+  width: 70%;
+}
+.main-content__content__projectdetial .text {
+  width: 100%;
+  border-top: 1px solid #dbdcde;
+}
+.main-content__content__projectdetial .text p {
+  word-break: break-all;
+}
+
+/*# sourceMappingURL=_model5.css.map */

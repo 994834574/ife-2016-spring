@@ -2,13 +2,20 @@
 @import "model2";
 @import "model3";
 @import "model4";
+@import "model5";
 
 $NAVIGATION_HEIGHT: 30px;
 .main-content {
   flex: 1;
   display: flex;
   max-width: calc(100% - 260px);
+  min-width: 1000px;
   flex-direction: column;
+
+  .row {
+    width: 100%;
+    display: flex;
+  }
 }
 
 .main-content__navigation {
