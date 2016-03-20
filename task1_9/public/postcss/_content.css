@@ -1,3 +1,5 @@
+@import "model1";
+
 $NAVIGATION_HEIGHT: 30px;
 .main-content {
   flex: 1;
@@ -48,11 +50,27 @@ $NAVIGATION_HEIGHT: 30px;
   border: 1px solid #dbdcde;
   padding: 15px 30px 15px 30px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
+
+  button {
+    height: 30px;
+    background-color: #2389bd;
+    border: 0;
+    outline: 0;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    &:hover, &:focus {
+      background-color: #2fb1f4;
+    }
+  }
 }
 
 .buypay {
   display: flex;
+  width: 210px;
+  position: relative;
   flex-direction: column;
   justify-content: space-around;
   select {
@@ -61,11 +79,11 @@ $NAVIGATION_HEIGHT: 30px;
 }
 
 .search-form-group {
-  margin-right: 30px;
   height: 60px;
   label.label {
     color: #a9a9a9;
-    margin-right: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   label.select {
@@ -84,10 +102,22 @@ $NAVIGATION_HEIGHT: 30px;
     line-height: 25px;
     color: black;
     right: 2px;
+    top: calc((100% - 25px) / 2);
     position: absolute;
     pointer-events: none;
     width: 35px;
     text-indent: 14px;
+  }
+
+  input {
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    font-size: 14px;
+    color: black;
+    box-shadow: none !important;
   }
 
   select {

@@ -195,6 +195,38 @@ table {
   transition: all linear  0.5s;
   overflow-y: hidden;
 }
+.exchage-icon {
+  height: 40px;
+  position: absolute;
+  top: 7px;
+  right: 0;
+  cursor: pointer;
+}
+.exchage-icon svg {
+  height: 100%;
+  width: 40px;
+}
+.exchage-icon:hover g {
+  fill: #62B0CE;
+}
+.detial .form-block {
+  width: 320px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.detial #search-date {
+  width: 120px;
+}
+.detial #search-time {
+  width: 70px;
+}
+.detial #search-num_people {
+  width: 70px;
+}
+.detial #search-num_project {
+  width: 120px;
+}
 .main-content {
   flex: 1;
   display: flex;
@@ -241,10 +273,25 @@ table {
   border: 1px solid #dbdcde;
   padding: 15px 30px 15px 30px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
+}
+.main-content__content__search button {
+  height: 30px;
+  background-color: #2389bd;
+  border: 0;
+  outline: 0;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+.main-content__content__search button:hover, .main-content__content__search button:focus {
+  background-color: #2fb1f4;
 }
 .buypay {
   display: flex;
+  width: 210px;
+  position: relative;
   flex-direction: column;
   justify-content: space-around;
 }
@@ -252,12 +299,12 @@ table {
   width: 120px;
 }
 .search-form-group {
-  margin-right: 30px;
   height: 60px;
 }
 .search-form-group label.label {
   color: #a9a9a9;
-  margin-right: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .search-form-group label.select {
   position: relative;
@@ -273,10 +320,21 @@ table {
   line-height: 25px;
   color: black;
   right: 2px;
+  top: calc((100% - 25px) / 2);
   position: absolute;
   pointer-events: none;
   width: 35px;
   text-indent: 14px;
+}
+.search-form-group input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  font-size: 14px;
+  color: black;
+  box-shadow: none !important;
 }
 .search-form-group select {
   border-radius: 0;

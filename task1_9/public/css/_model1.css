@@ -1,0 +1,46 @@
+.exchage-icon {
+  height: 40px;
+  position: absolute;
+  top: 7px;
+  right: 0;
+  cursor: pointer;
+}
+
+.exchage-icon svg {
+  height: 100%;
+  width: 40px;
+}
+
+.exchage-icon:hover g {
+  fill: #62B0CE;
+}
+
+.detial .form-block {
+  width: 320px;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.detial #search-date {
+  width: 120px;
+}
+
+.detial #search-time {
+  width: 70px;
+}
+
+.detial #search-num_people {
+  width: 70px;
+}
+
+.detial #search-num_project {
+  width: 120px;
+}
+
+/*# sourceMappingURL=_model1.css.map */
