@@ -1,6 +1,7 @@
 @import "model1";
 @import "model2";
 @import "model3";
+@import "model4";
 
 $NAVIGATION_HEIGHT: 30px;
 .main-content {
