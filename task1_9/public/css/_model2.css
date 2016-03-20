@@ -1,0 +1,110 @@
+.main-content__content__history {
+  height: 65px;
+  width: 100%;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main-content__content__history .toleft, .main-content__content__history .toright {
+  width: 30px;
+  border: 1px solid #dbdcde;
+  background-color: white;
+  line-height: 65px;
+  cursor: pointer;
+}
+.main-content__content__history .toleft i, .main-content__content__history .toright i {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  color: #bfbfbf;
+}
+.main-content__content__history .toleft:hover i, .main-content__content__history .toright:hover i {
+  color: #6096be;
+}
+.main-content__content__history .main {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 100%;
+  margin: 0 5px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main-content__content__history .main .time-block {
+  min-width: 110px;
+  height: 100%;
+  background-color: white;
+  margin: 0 2.5px;
+  padding: 12px 0;
+  border: 1px solid #dbdcde;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  position: relative;
+}
+.main-content__content__history .main .time-block .hover-line {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  top: 0;
+  background-color: transparent;
+}
+.main-content__content__history .main .time-block .time {
+  text-align: center;
+  font-size: 13px;
+}
+.main-content__content__history .main .time-block .money {
+  text-align: center;
+  color: #f56c28;
+  font-size: 20px;
+  font-weight: bold;
+}
+.main-content__content__history .main .time-block .money span {
+  font-size: 15px;
+  color: #acabab;
+  font-weight: unset;
+}
+.main-content__content__history .main .time-block:hover .hover-line {
+  background-color: #3587c4;
+}
+.main-content__content__history .title {
+  margin-left: 5px;
+  border: 1px solid #dbdcde;
+  background-color: white;
+  padding: 0 15px;
+  font-size: 14px;
+  line-height: 65px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 130px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.main-content__content__history .title img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=_model2.css.map */

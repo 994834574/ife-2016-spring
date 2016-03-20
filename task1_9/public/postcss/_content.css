@@ -1,9 +1,11 @@
 @import "model1";
+@import "model2";
 
 $NAVIGATION_HEIGHT: 30px;
 .main-content {
   flex: 1;
   display: flex;
+  max-width: calc(100% - 260px);
   flex-direction: column;
 }
 
