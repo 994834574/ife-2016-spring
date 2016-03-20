@@ -60,6 +60,7 @@ $NAVIGATION_HEIGHT: 30px;
     outline: 0;
     color: white;
     padding: 5px 12px;
+    cursor: pointer;
     border-radius: 5px;
     &:hover, &:focus {
       background-color: #2fb1f4;
