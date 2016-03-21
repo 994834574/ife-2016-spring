@@ -9,7 +9,7 @@ body{
 }
 
 
-@media(min-width:768px){
+@media(min-width:768pt){
  .col-md-1{
  	width: 8.333333333%;
  }
@@ -49,7 +49,7 @@ body{
 }
 
 
-@media(max-width: 766px) {
+@media(max-width: 766pt) {
     .col-sm-1{
         width: 8.333333333%;
     }
@@ -88,6 +88,9 @@ body{
     }
 
 }
+
+
+
 
 div.content{
     margin:10px;
