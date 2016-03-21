@@ -435,6 +435,183 @@
 .main-content__content__projectdetial .text p {
   word-break: break-all;
 }
+.main-content__content__calendar {
+  flex: 3;
+  height: 460px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background-color: white;
+  border: 1.5px solid #dbdcde;
+  border-radius: 10px;
+}
+.main-content__content__calendar .form-control {}
+.main-content__content__calendar .main {
+  padding: 10px 20px;
+}
+.main-content__content__calendar .main .search-form-group {
+  display: flex;
+  height: 25px;
+  justify-content: space-between;
+}
+.main-content__content__calendar header {
+  height: 40px;
+  background-color: #f4f5f7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid #dbdcde;
+}
+.main-content__content__calendar header h3 {
+  margin-left: 20px;
+  color: #acaeae;
+  line-height: 40px;
+}
+.main-content__content__calendar .year select {
+  width: 65px;
+}
+.main-content__content__calendar .month select {
+  width: 85px;
+}
+.main-content__content__calendar .date select {
+  width: 75px;
+}
+.main-content__content__calendar #style2 select {
+  padding-left: 0px;
+  font-size: 12px;
+}
+.main-content__content__calendar #style2 label.select:after {
+  content: "\f0d7" !important;
+  top: 0;
+  width: 25px;
+  text-indent: 0;
+  text-align: center;
+  border-left: 1px solid #dbdcde;
+}
+.main-content__content__calendar .calendar {
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  border-top: 2px solid #a2cde9;
+  border-bottom: 2px solid #dbdcde;
+}
+.main-content__content__calendar .calendar .week {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.main-content__content__calendar .calendar .week li {
+  line-height: 40px;
+}
+.main-content__content__calendar .calendar .date {
+  display: flex;
+  flex-wrap: wrap;
+  height: 225px;
+}
+.main-content__content__calendar .calendar .date .date-item {
+  width: 14.28%;
+  height: 40px;
+  margin: 10px 0;
+}
+.main-content__content__calendar .calendar .date .date-item p {
+  text-align: center;
+}
+.main-content__content__calendar .calendar .date .fes .lunar {
+  color: red;
+}
+.main-content__content__calendar .calendar .date .weekend .day {
+  color: red;
+}
+#today {
+  border-radius: 0;
+  background-color: white;
+  border: 1px solid #a9a9a9;
+  cursor: pointer;
+}
+.main-content__content__cars {
+  flex: 5;
+  height: 460px;
+  margin-top: 15px;
+  margin-left: 10px;
+  background-color: white;
+  border: 1.5px solid #dbdcde;
+  border-radius: 10px;
+}
+.main-content__content__cars header {
+  height: 40px;
+  background-color: #f4f5f7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid #dbdcde;
+}
+.main-content__content__cars header h3 {
+  margin-left: 20px;
+  color: #acaeae;
+  line-height: 40px;
+}
+.main-content__content__cars .main {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.main-content__content__cars table, .main-content__content__cars th, .main-content__content__cars td {
+  border: 1px solid #b4b4b4;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.main-content__content__cars th, .main-content__content__cars td {
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+.main-content__content__cars tr:hover {
+  background-color: #f4f5f6;
+}
+.main-content__content__cars th {
+  font-weight: bold;
+}
+.main-content__content__cars .hotbar {
+  width: 170px;
+  height: 5px;
+  display: inline-block;
+  background-color: #dbdbdb;
+  margin: 0 20px;
+  transform: translate(0, -3px);
+}
+.main-content__content__cars .hotbar span {
+  display: block;
+  height: 100%;
+  background-color: #70c8ed;
+}
+.main-content__content__cars tr:nth-child(1) .hotbar span {
+  width: 90%;
+  background-color: #f66f57;
+}
+.main-content__content__cars tr:nth-child(2) .hotbar span {
+  width: 80%;
+  background-color: #f78057;
+}
+.main-content__content__cars tr:nth-child(3) .hotbar span {
+  width: 70%;
+  background-color: #f89e58;
+}
+.main-content__content__cars tr:nth-child(4) .hotbar span {
+  width: 60%;
+}
+.main-content__content__cars tr:nth-child(5) .hotbar span {
+  width: 55%;
+}
+.main-content__content__cars tr:nth-child(6) .hotbar span {
+  width: 50%;
+}
+.main-content__content__cars tr:nth-child(7) .hotbar span {
+  width: 40%;
+}
+.main-content__content__cars tr:nth-child(8) .hotbar span {
+  width: 35%;
+}
+.main-content__content__cars tr:nth-child(9) .hotbar span {
+  width: 26%;
+}
 .main-content {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
