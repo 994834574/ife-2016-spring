@@ -157,7 +157,8 @@ table {
   font-size: 15px;
 }
 .sidebar__menulist__menu {
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 45px;
   color: #6a7e92;
   cursor: pointer;
@@ -169,6 +170,7 @@ table {
   text-align: left;
   font-size: 15px;
   font-weight: unset;
+  transition: all ease 0.5s;
 }
 .sidebar__menulist__menu .children {
   padding-left: 25px;
@@ -176,6 +178,7 @@ table {
 }
 .sidebar__menulist__menu:hover {
   color: white;
+  background-color: #393e4c;
 }
 #reports:hover, #dir2:hover {}
 #reports:hover > .sidebar__menulist__menu-mask, #dir2:hover > .sidebar__menulist__menu-mask {

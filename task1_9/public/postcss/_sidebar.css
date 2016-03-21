@@ -67,7 +67,8 @@ $AVATAR_HEIGHT: 57px;
 }
 
 .sidebar__menulist__menu {
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 45px;
   color: #6a7e92;
   cursor: pointer;
@@ -79,8 +80,10 @@ $AVATAR_HEIGHT: 57px;
   text-align: left;
   font-size: 15px;
   font-weight: unset;
+  transition: all ease 0.5s;
   &:hover {
     color: white;
+    background-color: #393e4c;
   }
   .children {
     padding-left: 25px;

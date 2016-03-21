@@ -92,7 +92,8 @@
 }
 
 .sidebar__menulist__menu {
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 45px;
   color: #6a7e92;
   cursor: pointer;
@@ -104,6 +105,8 @@
   text-align: left;
   font-size: 15px;
   font-weight: unset;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
 }
 
 .sidebar__menulist__menu .children {
@@ -113,6 +116,7 @@
 
 .sidebar__menulist__menu:hover {
   color: white;
+  background-color: #393e4c;
 }
 
 #reports:hover, #dir2:hover {
