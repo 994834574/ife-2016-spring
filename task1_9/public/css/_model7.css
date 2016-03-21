@@ -1,0 +1,98 @@
+.main-content__content__cars {
+  -webkit-box-flex: 5;
+  -webkit-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  height: 460px;
+  margin-top: 15px;
+  margin-left: 10px;
+  background-color: white;
+  border: 1.5px solid #dbdcde;
+  border-radius: 10px;
+}
+.main-content__content__cars header {
+  height: 40px;
+  background-color: #f4f5f7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid #dbdcde;
+}
+.main-content__content__cars header h3 {
+  margin-left: 20px;
+  color: #acaeae;
+  line-height: 40px;
+}
+.main-content__content__cars .main {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.main-content__content__cars table, .main-content__content__cars th, .main-content__content__cars td {
+  border: 1px solid #b4b4b4;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.main-content__content__cars th, .main-content__content__cars td {
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+.main-content__content__cars tr:hover {
+  background-color: #f4f5f6;
+}
+.main-content__content__cars th {
+  font-weight: bold;
+}
+.main-content__content__cars .hotbar {
+  width: 170px;
+  height: 5px;
+  display: inline-block;
+  background-color: #dbdbdb;
+  margin: 0 20px;
+  -webkit-transform: translate(0, -3px);
+  transform: translate(0, -3px);
+}
+.main-content__content__cars .hotbar span {
+  display: block;
+  height: 100%;
+  background-color: #70c8ed;
+}
+.main-content__content__cars tr:nth-child(1) .hotbar span{
+  width: 90%;
+  background-color: #f66f57;
+}
+.main-content__content__cars tr:nth-child(2) .hotbar span{
+  width: 80%;
+  background-color: #f78057;
+}
+.main-content__content__cars tr:nth-child(3) .hotbar span{
+  width: 70%;
+  background-color: #f89e58;
+}
+.main-content__content__cars tr:nth-child(4) .hotbar span{
+  width: 60%;
+}
+.main-content__content__cars tr:nth-child(5) .hotbar span{
+  width: 55%;
+}
+.main-content__content__cars tr:nth-child(6) .hotbar span{
+  width: 50%;
+}
+.main-content__content__cars tr:nth-child(7) .hotbar span{
+  width: 40%;
+}
+.main-content__content__cars tr:nth-child(8) .hotbar span{
+  width: 35%;
+}
+.main-content__content__cars tr:nth-child(9) .hotbar span{
+  width: 26%;
+}
+
+/*# sourceMappingURL=_model7.css.map */

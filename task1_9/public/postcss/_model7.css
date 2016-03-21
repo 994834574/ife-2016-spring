@@ -1,0 +1,80 @@
+.main-content__content__cars {
+  flex: 5;
+  height: 460px;
+  margin-top: 15px;
+  margin-left: 10px;
+  background-color: white;
+  border: 1.5px solid #dbdcde;
+  border-radius: 10px;
+  header {
+    @mixin header;
+  }
+
+  .main {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  table,th,td {
+    border: 1px solid #b4b4b4;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  th,td {
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+  }
+  tr:hover {
+    background-color: #f4f5f6;
+  }
+  th {
+    font-weight: bold;
+  }
+
+  .hotbar {
+    width: 170px;
+    height: 5px;
+    display: inline-block;
+    background-color: #dbdbdb;
+    margin: 0 20px;
+    transform: translate(0, -3px);
+    span {
+      display: block;
+      height: 100%;
+      background-color: #70c8ed;
+    }
+  }
+  tr:nth-child(1) .hotbar span{
+    width: 90%;
+    background-color: #f66f57;
+  }
+  tr:nth-child(2) .hotbar span{
+    width: 80%;
+    background-color: #f78057;
+  }
+  tr:nth-child(3) .hotbar span{
+    width: 70%;
+    background-color: #f89e58;
+  }
+  tr:nth-child(4) .hotbar span{
+    width: 60%;
+  }
+  tr:nth-child(5) .hotbar span{
+    width: 55%;
+  }
+  tr:nth-child(6) .hotbar span{
+    width: 50%;
+  }
+  tr:nth-child(7) .hotbar span{
+    width: 40%;
+  }
+  tr:nth-child(8) .hotbar span{
+    width: 35%;
+  }
+  tr:nth-child(9) .hotbar span{
+    width: 26%;
+  }
+}

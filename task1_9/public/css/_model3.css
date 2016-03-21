@@ -1,0 +1,191 @@
+.main-content__content__count {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.main-content__content__count h3 {
+  margin: 5px 0;
+}
+
+.main-content__content__count__mainblock {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(1) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  border: 1px solid #dbdcde;
+  width: 200px;
+  height: 100%;
+  background-color: white;
+  padding: 12px 15px;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(1) .leftline {
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #28b09d;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(1) .text {
+  width: 100px;
+  line-height: 25px;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(1) .text p:nth-child(2) {
+  font-size: 14px;
+  color: #acabab;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(1) .colorbox {
+  width: 60px;
+  height: 45px;
+  background-color: #28b09d;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  border: 1px solid #dbdcde;
+  width: 200px;
+  height: 100%;
+  background-color: white;
+  padding: 12px 15px;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(2) .leftline {
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2389bd;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(2) .text {
+  width: 100px;
+  line-height: 25px;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(2) .text p:nth-child(2) {
+  font-size: 14px;
+  color: #acabab;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(2) .colorbox {
+  width: 60px;
+  height: 45px;
+  background-color: #2389bd;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(3) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  border: 1px solid #dbdcde;
+  width: 200px;
+  height: 100%;
+  background-color: white;
+  padding: 12px 15px;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(3) .leftline {
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #d74d3e;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(3) .text {
+  width: 100px;
+  line-height: 25px;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(3) .text p:nth-child(2) {
+  font-size: 14px;
+  color: #acabab;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(3) .colorbox {
+  width: 60px;
+  height: 45px;
+  background-color: #d74d3e;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(4) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  border: 1px solid #dbdcde;
+  width: 200px;
+  height: 100%;
+  background-color: white;
+  padding: 12px 15px;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(4) .leftline {
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #e4cc56;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(4) .text {
+  width: 100px;
+  line-height: 25px;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(4) .text p:nth-child(2) {
+  font-size: 14px;
+  color: #acabab;
+}
+
+.main-content__content__count__mainblock .count-item:nth-child(4) .colorbox {
+  width: 60px;
+  height: 45px;
+  background-color: #e4cc56;
+}
+
+/*# sourceMappingURL=_model3.css.map */
