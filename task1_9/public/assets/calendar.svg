@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg4307" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="40" width="40" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 40 40.000001">
+ <metadata id="metadata4312">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <rect id="rect4217" stroke-opacity=".97255" height="31.385" width="36.209" stroke="#388ac1" stroke-linecap="square" stroke-miterlimit="1.5" y="6.5256" x="2.0173" stroke-width="3" fill="none"/>
+ <g stroke-width="0" stroke-miterlimit="1.5" fill="#388ac1">
+  <rect id="rect4220" height="10.963" width="4.3225" y=".88734" x="8.4697"/>
+  <rect id="rect4220-1" height="10.963" width="4.3225" y=".60543" x="27.357"/>
+  <rect id="rect4237" height="5.7007" width="5.7007" y="16.173" x="7.2795"/>
+  <rect id="rect4237-1" transform="scale(1,-1)" height="5.7007" width="5.7007" y="-21.905" x="17.021"/>
+  <rect id="rect4237-1-3" transform="scale(1,-1)" height="5.7007" width="5.7007" y="-31.615" x="7.1229"/>
+  <rect id="rect4237-1-3-0" transform="scale(1,-1)" height="5.7007" width="5.7007" y="-31.552" x="16.958"/>
+  <rect id="rect4237-1-3-9" transform="scale(1,-1)" height="5.7007" width="5.7007" y="-31.803" x="27.044"/>
+ </g>
+</svg>

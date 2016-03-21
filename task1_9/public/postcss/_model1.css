@@ -1,0 +1,41 @@
+.exchage-icon {
+  height: 40px;
+  position: absolute;
+  top: 7px;
+  right: 0;
+  cursor: pointer;
+  svg {
+    height: 100%;
+    width: 40px;
+  }
+  &:hover {
+    g {
+      fill: #62B0CE;
+    }
+  }
+}
+
+.detial {
+  .form-block {
+    width: 320px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #search-date {
+    width: 120px;
+  }
+
+  #search-time {
+    width: 70px;
+  }
+
+  #search-num_people {
+    width: 70px;
+  }
+
+  #search-num_project {
+    width: 120px;
+  }
+}

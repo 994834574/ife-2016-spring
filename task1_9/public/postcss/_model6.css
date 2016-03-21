@@ -1,0 +1,102 @@
+.main-content__content__calendar {
+  flex: 3;
+  height: 460px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background-color: white;
+  border: 1.5px solid #dbdcde;
+  border-radius: 10px;
+
+  .form-control {
+  }
+
+  .main {
+    padding: 10px 20px;
+    .search-form-group {
+      display: flex;
+      height: 25px;
+      justify-content: space-between;
+    }
+  }
+
+  header {
+    @mixin header;
+  }
+
+  .year {
+    select {
+      width: 65px;
+    }
+  }
+
+  .month {
+    select {
+      width: 85px;
+    }
+  }
+
+  .date {
+    select {
+      width: 75px;
+    }
+  }
+  #style2{
+    select {
+      padding-left: 0px;
+      font-size: 12px;
+    }
+    label.select:after {
+      content: "\f0d7" !important;
+      top: 0;
+      width: 25px;
+      text-indent: 0;
+      text-align: center;
+      border-left: 1px solid #dbdcde;
+    }
+  }
+  .calendar {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border-top: 2px solid #a2cde9;
+    border-bottom: 2px solid #dbdcde;
+    .week {
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      li {
+        line-height: 40px;
+      }
+    }
+    .date {
+      display: flex;
+      flex-wrap: wrap;
+      height: 225px;
+      .date-item {
+        width: 14.28%;
+        height: 40px;
+        margin: 10px 0;
+        p {
+          text-align: center;
+        }
+      }
+      .fes {
+        .lunar {
+          color: red;
+        } 
+      }
+      .weekend {
+        .day {
+          color: red;
+        }
+      }
+    }
+  }
+}
+
+#today {
+  border-radius: 0;
+  background-color: white;
+  border: 1px solid #a9a9a9;
+  cursor: pointer;
+}
