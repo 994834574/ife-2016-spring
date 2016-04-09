@@ -1,0 +1,38 @@
+.aqi-chart-wrap{
+	width: 910px;
+	height: 600px;
+	background: #0066a3;
+	display: flex;
+	align-items: flex-end;
+}
+.aqi-chart-wrap> p.day{
+	width: 8px;
+	margin: 0 1px 0 1px;
+}
+.aqi-chart-wrap> p.week{
+	width: 56px;
+	margin: 0 7px 0 7px;
+}
+.aqi-chart-wrap> p.month{
+	width: 240px;
+	margin: 0 60px 0 60px;
+}
+.aqi-chart-wrap>p.high{
+	background-color:#ff0000 ;
+}
+
+.aqi-chart-wrap>p.middle-high{
+	background-color: #ffaf55;
+}
+
+.aqi-chart-wrap>p.middle{
+	background-color: #f8ee00;
+}
+
+.aqi-chart-wrap>p.low-middle{
+	background-color: #baf600;
+}
+
+.aqi-chart-wrap>p.low{
+	background-color: #00f900;
+ }
