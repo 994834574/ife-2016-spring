@@ -29,7 +29,6 @@ var aqiSourceData = {
     "厦门": randomBuildData(100),
     "沈阳": randomBuildData(500)
 };
-
 // 用于渲染图表的数据
 var chartData = {};
 // 记录当前页面的表单选项
