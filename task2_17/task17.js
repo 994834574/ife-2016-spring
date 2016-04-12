@@ -1,14 +1,3 @@
-/* 数据格式演示
- var aqiSourceData = {
- "北京": {
- "2016-01-01": 10,
- "2016-01-02": 10,
- "2016-01-03": 10,
- "2016-01-04": 10
- }
- };
- */
-
 // 以下两个函数用于随机模拟生成测试数据
 function getDateStr(dat) {
     var y = dat.getFullYear();
@@ -74,7 +63,6 @@ function renderChart() {
         displayContent += "<p title='" + prop + "' class='" + pageState.nowGraTime + " " + rendercolor(chartData[prop]) + "' style='height: " + chartData[prop] + "px'></p>";
     }
     display.innerHTML = displayContent;
-
 }
 
 /**
@@ -97,7 +85,6 @@ function graTimeChange() {
     initAqiChartData();
 
 }
-
 /**
  * select发生变化时的处理函数
  */
@@ -111,14 +98,12 @@ function citySelectChange() {
         initAqiChartData();
     }
 }
-
 /**
  * 初始化日、周、月的radio事件，当点击时，调用函数graTimeChange
  */
 function initGraTimeForm() {
     document.getElementById("form-gra-time").addEventListener('click', graTimeChange);
 }
-
 /**
  * 初始化城市Select下拉选择框中的选项
  */
@@ -133,22 +118,12 @@ function initCitySelector() {
     // 给select设置事件，当选项发生变化时调用函数citySelectChange
     select.addEventListener('change', citySelectChange);
 }
-
 /**
  * 初始化图表需要的数据格式
  */
 function initAqiChartData() {
     // 将原始的源数据处理成图表需要的数据格式
     var sourceData = aqiSourceData[pageState.nowSelectCity];
-    // 计算平均数
-    // var average = function(objdata){
-    //     var sum=0,count=0;
-    //     for(var prop in objdata){
-    //         sum += objdata[prop];
-    //         count++;
-    //     }
-    //     return Math.ceil(sum/count);
-    // };
     // 处理好的数据存到 chartData 中
     switch (pageState.nowGraTime) {
         case "day":
@@ -156,8 +131,6 @@ function initAqiChartData() {
             chartData = sourceData;
             break;
         case "week":
-            //weekAndDay:一个存储一个月的中的一天对应的是本月的第几个周的对象
-
             chartData = {};
             var wd = new Date(Object.keys(sourceData)[0]).getDay(), weekcount = 1;
             var sum = 0, count = 0;
@@ -179,7 +152,7 @@ function initAqiChartData() {
         case "month":
             chartData = {};
             var m = Object.keys(sourceData)[0].charAt(6);
-            var sum = 0, count = 0;
+            sum = 0; count = 0;
             for (var prop in sourceData) {
                 if (m === prop.charAt(6)) {
                     sum += sourceData[prop];
@@ -206,5 +179,4 @@ function init() {
     initCitySelector();
     initAqiChartData();
 }
-
 init();
