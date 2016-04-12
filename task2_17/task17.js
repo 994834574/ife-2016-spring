@@ -18,7 +18,6 @@ function randomBuildData(seed) {
     }
     return returnData;
 }
-
 var aqiSourceData = {
     "北京": randomBuildData(500),
     "上海": randomBuildData(300),
